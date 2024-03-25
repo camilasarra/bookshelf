@@ -1,0 +1,122 @@
+# Logs
+logs/
+*.log
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Reportes de diagnóstico (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Datos de tiempo de ejecución
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Directorio para bibliotecas instrumentadas generadas por jscoverage/JSCover
+lib-cov/
+
+# Directorio de cobertura utilizado por herramientas como istanbul
+coverage/
+*.lcov
+
+# Salida de cobertura de prueba nyc
+.nyc_output/
+
+# Almacenamiento intermedio de Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt/
+
+# Directorio de dependencias
+node_modules/
+jspm_packages/
+
+# Archivos de declaración de TypeScript v1
+typings/
+
+# Caché de TypeScript
+*.tsbuildinfo
+
+# Directorio de caché npm opcional
+.npm/
+
+# Caché eslint opcional
+.eslintcache/
+
+# Caché de Microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Historial de REPL opcional
+.node_repl_history
+
+# Salida de 'npm pack'
+*.tgz
+
+# Archivo de integridad de Yarn
+.yarn-integrity
+
+# Archivo de variables de entorno dotenv
+.env
+.env.test
+server/.env
+
+# Caché de parcel-bundler (https://parceljs.org/)
+.cache
+
+# Salida de construcción de Next.js
+.next
+
+# Salida de construcción / generación de Nuxt.js
+.nuxt
+dist
+
+# Archivos de Gatsby
+.cache/
+
+# Salida de construcción de vuepress
+.vuepress/dist
+
+# Directorios de Serverless
+.serverless/
+
+# Caché de FuseBox
+.fusebox/
+
+# Archivos DynamoDB Local
+.dynamodb/
+
+# Archivo de puerto TernJS
+.tern-port
+
+# package-lock.json
+package-lock.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
