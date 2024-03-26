@@ -6,13 +6,18 @@ const cookieParser = require('cookie-parser')
 
 
 
+
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(cors());
 app.use(cookieParser())
-// app.use('/', router)
+
+app.use('/', require('./routes/root'))
+app.use('/users', require('./routes/userRoutes'))
+app.use('/reviews', require('./routes/reviewsRoutes'))
 
 
 //MongoDB connection
