@@ -25,8 +25,7 @@ export default function DashFooter() {
     const content = (
         <footer>
             {onClickedGoHome}
-            <p>Current User:</p>
-            <p>Status:</p>
+          
         </footer>
     )
     return content
